@@ -1,5 +1,67 @@
 body {
-    background-color: white;
+    background-color: green;
     margin: 0;
-    
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    width: 16em;
+    height: 22em;
+    border-radius: 1em;
+    position: relative;
+    border: 1px solid yellowgreen;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px rgb(0, 70, 0),
+        -6px -6px 12px rgb(0, 170, 0);
+}
+
+.card:hover {
+    border: 1px solid white;
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}
+
+.suit-top {
+    font-size: 4em;
+    position: absolute;
+    top: -0.2em;
+    left: 0.2em;
+}
+
+.rank {
+    font-size: 8em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.suit-bot {
+    font-size: 4em;
+    position: absolute;
+    bottom: -0.1em;
+    right: 0.2em;
+}
+
+button {
+    color: black;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: white;
+    border: 1px solid yellowgreen;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px rgb(0, 70, 0),
+        -6px -6px 12px rgb(0, 170, 0);
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
 }
